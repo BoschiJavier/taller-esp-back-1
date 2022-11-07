@@ -8,4 +8,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/BoschiJavier/taller-esp-back-1
+          default-label: main
+          force-pull: true
+          search-paths: config-data
